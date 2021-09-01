@@ -42,4 +42,8 @@
   padding-top: 10px;
   padding-left: 10px;
 }
+
+#logBox {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
