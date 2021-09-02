@@ -7,7 +7,7 @@ class Seen{
 };
 
 var data= [];
-data.push(new Seen('hanako','やあ','th.jpeg'));
+data.push(new Seen('hanako','やあa','th.jpeg'));
 data.push(new Seen('tarou','こんにちは','th2.jpeg'));
 data.push(new Seen('hanako','やあ','th.jpeg'));
 data.push(new Seen('tarou','こんにちは','th.jpeg'));
