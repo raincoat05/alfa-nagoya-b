@@ -9,14 +9,15 @@ class Sean{
 };
 
 var data= [];
-data.push(new Sean('hanako','iiiiii','th.jpeg','character1','chatracter2'));
-data.push(new Sean('hanako','iiiiii','th.jpeg','character1','chatracter2'));
+data.push(new Sean('hanako','iiiiii','th.jpeg','character1','character2'));
+data.push(new Sean('hanako','iiiiii','th.jpeg','character2','character2'));
+data.push(new Sean('hanako','iiiiii','th.jpeg','character1','character1'));
 
 var count = 0;
 
 var skip = function(){
-    document.getElementsByClassName("speakerName")[0].innerHTML=data[count].name;
-    document.getElementsByClassName("speakText")[0].innerHTML=data[count].text;
+    document.getElementsByClassName("speakerName")[0].innerHTML=data[count].speakerName;
+    document.getElementsByClassName("speakText")[0].innerHTML=data[count].speakText;
     document.getElementById("background").src='../img/background/'+ data[count].background;
     document.getElementById("character1").src='../img/character/'+ data[count].character1+ '.png';
     document.getElementById("character2").src='../img/character/'+ data[count].character2+ '.png';

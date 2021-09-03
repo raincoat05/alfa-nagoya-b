@@ -9,8 +9,45 @@ body {
 
 #background {
   position: absolute;
+  z-index: -1;
   width: 100vw;
   height: 100vh;
 }
 
+#characterBox {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+#characterBox img {
+  width: 30vw;
+}
+
+#textBox {
+  height: 30vh;
+  width: 85vw;
+  padding-top: 20vh;
+  margin: 0 auto;
+}
+
+#textBox .speakerName {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#textBox .speakText {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#skipButton {
+  padding-right: 10%;
+  float: right;
+}
 /*# sourceMappingURL=main.css.map */

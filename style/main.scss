@@ -11,3 +11,30 @@ body{
     width: 100vw;
     height: 100vh;
 }
+#characterBox{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    img{
+        width: 30vw;
+    }
+}
+#textBox{
+    height: 30vh;
+    width: 85vw;
+    padding-top: 20vh;
+    margin: 0 auto;
+    .speakerName{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .speakText{
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+#skipButton{
+    padding-right: 10%;
+    float: right;
+}
