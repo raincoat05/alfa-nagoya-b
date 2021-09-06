@@ -4,12 +4,11 @@
 }
 
 body {
-  position: relative;
+  height: 100vh;
 }
 
 #background {
-  position: absolute;
-  z-index: -1;
+  position: relative;
   width: 100vw;
   height: 100vh;
 }
@@ -23,6 +22,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
+  position: absolute;
+  top: 0;
 }
 
 #characterBox img {
@@ -30,10 +31,15 @@ body {
 }
 
 #textBox {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: rgba(119, 119, 119, 0.548);
   height: 30vh;
   width: 85vw;
-  padding-top: 20vh;
-  margin: 0 auto;
 }
 
 #textBox .speakerName {

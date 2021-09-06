@@ -8,7 +8,7 @@ class Sean{
 };
 
 var data= [];
-data.push(new Sean('speaker','text','background','character'));
+data.push(new Sean('speaker','text','background.jpeg','character'));
 
 var count = 0;
 
