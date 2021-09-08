@@ -74,7 +74,8 @@ body {
   position: absolute;
   z-index: 10;
   width: 85%;
-  bottom: 17vh;
+  top: -22vh;
+  bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
