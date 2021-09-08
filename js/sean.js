@@ -8,7 +8,9 @@ class Sean{
 };
 
 var data= [];
-data.push(new Sean('speaker','text','background.jpeg','character'));
+data.push(new Sean('speaker','text','sss.jpg','blanc'));
+data.push(new Sean('speaker','text','sss.jpg','noir,blanc'));
+data.push(new Sean('speaker','text','sss.jpg','noir'));
 
 var count = 0;
 
@@ -16,7 +18,7 @@ var skip = function(){
     document.getElementsByClassName("speakerName")[0].innerHTML=data[count].speakerName;
     document.getElementsByClassName("speakText")[0].innerHTML=data[count].speakText;
     document.getElementById("background").src='../img/background/'+ data[count].background;
-    document.getElementById("character").src='../img/character/'+ data[count].character+ '.png';
+    document.getElementById("character1").src='../img/character/'+ data[count].character1+ '.png';
     count++;
 };
 
