@@ -41,8 +41,8 @@ var count = 0;
 var skip = function(){
     document.getElementsByClassName("speakerName")[0].innerHTML=data[count].speakerName;
     document.getElementsByClassName("speakText")[0].innerHTML=data[count].speakText;
-    document.getElementById("background").src='../img/background/'+ data[count].background;
-    document.getElementById("character1").src='../img/character/'+ data[count].character1+ '.png';
+    document.getElementById("background").src='./img/background/'+ data[count].background;
+    document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
 };
 
