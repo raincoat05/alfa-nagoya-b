@@ -6,6 +6,9 @@ body {
     height: 100vh;
     width: 100vw;
 }
+a{
+    text-decoration: none;
+}
 #background {
     position: relative;
     width: 100vw;
@@ -79,17 +82,51 @@ body {
     float: right;
 }
 
-.quizText{
-    width: 80%;
-    font-size: 2vw;
+#quizBackground{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(10px);
 }
-.answerContainer{
-    width: 80vw;
-    text-align: center;
-    #answer{
-
+#quizContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    .quizText {
+        font-size: 2vw;
+        color: #fff;
     }
-}
-.nextBtn{
-    display: none;
+    #answerContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width: 40vw;
+        #answer {
+            background: rgb(204, 255, 224);
+            border: none;
+            color: rgb(0, 0, 0);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        #answerBtn {
+            width: 100%;
+        }
+    }
+    .hide{
+        display: none;
+        font-size: 80px;
+        color: rgb(255, 125, 125);
+    }
+    .nextBtn {
+        font-size: 50px;
+        color: rgb(87, 171, 250);
+    }
 }

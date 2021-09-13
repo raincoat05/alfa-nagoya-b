@@ -8,6 +8,10 @@ body {
   width: 100vw;
 }
 
+a {
+  text-decoration: none;
+}
+
 #background {
   position: relative;
   width: 100vw;
@@ -91,17 +95,78 @@ body {
   float: right;
 }
 
-.quizText {
-  width: 80%;
-  font-size: 2vw;
+#quizBackground {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
 }
 
-.answerContainer {
-  width: 80vw;
+#quizContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+}
+
+#quizContainer .quizText {
+  font-size: 2vw;
+  color: #fff;
+}
+
+#quizContainer #answerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30vh;
+  width: 40vw;
+}
+
+#quizContainer #answerContainer #answer {
+  background: #ccffe0;
+  border: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  width: 100%;
   text-align: center;
 }
 
-.nextBtn {
+#quizContainer #answerContainer #answerBtn {
+  width: 100%;
+}
+
+#quizContainer .hide {
   display: none;
+  font-size: 80px;
+  color: #ff7d7d;
+}
+
+#quizContainer .nextBtn {
+  font-size: 50px;
+  color: #57abfa;
 }
 /*# sourceMappingURL=main.css.map */
