@@ -90,4 +90,18 @@ body {
   left: 70vw;
   float: right;
 }
+
+.quizText {
+  width: 80%;
+  font-size: 2vw;
+}
+
+.answerContainer {
+  width: 80vw;
+  text-align: center;
+}
+
+.nextBtn {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
