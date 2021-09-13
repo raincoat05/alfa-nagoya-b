@@ -1,8 +1,3 @@
-// $(function () {
-//     $(".speaker").html(text000);
-//     console.log(text000);
-// });
-
 var i = 0;
 $(function () {
     $(".skipButton").click(function () {
