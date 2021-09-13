@@ -8,7 +8,7 @@ class Sean{
 };
 
 var data= [];
-data.push(new Sean('探偵ブラン','おめでとう！！きみが最初の正かい者だ','sss.jpg','blanc'));
+data.push(new Sean('探偵ブラン','おめでとう！！きみが最初の正かい者だ','image0.jpg','blanc'));
 data.push(new Sean('探偵ブラン','ぜひともわたしの助手になってくれ！','sss.jpg','blanc'));
 data.push(new Sean('主人公','もちろんです！','sss.jpg','blanc'));
 data.push(new Sean('探偵ブラン','ありがとう！早速だが説明させてもらおう','sss.jpg','blanc'));
