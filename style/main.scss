@@ -6,9 +6,30 @@ body {
     height: 100vh;
     width: 100vw;
 }
-a{
+a {
     text-decoration: none;
 }
+
+#titlevisual {
+    display: block;
+    height: 100vh;
+    margin: 0 auto;
+}
+#opening {
+    width: 100vw;
+    height: 100vh;
+}
+#startGame {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #startGameLink {
+        font-size: 80px;
+    }
+}
+
 #background {
     position: relative;
     width: 100vw;
@@ -83,7 +104,7 @@ a{
     float: right;
 }
 
-#quizBackground{
+#quizBackground {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -95,7 +116,11 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 95vh;
+    .quizImg{
+        height: 40vh;
+        margin-bottom: 20px;
+    }
     .quizText {
         font-size: 2vw;
         color: #fff;
@@ -111,17 +136,14 @@ a{
             background: rgb(204, 255, 224);
             border: none;
             color: rgb(0, 0, 0);
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
             font-size: 20px;
             width: 100%;
             text-align: center;
         }
-        #answerBtn {
-            width: 100%;
-        }
     }
-    .hide{
+    .hide {
         display: none;
         font-size: 80px;
         color: rgb(255, 125, 125);
@@ -130,4 +152,15 @@ a{
         font-size: 50px;
         color: rgb(87, 171, 250);
     }
+}
+
+#answerBtn {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: rgb(103, 188, 209);
+}
+#answerBtn:hover {
+    background: rgb(64, 153, 165);
 }

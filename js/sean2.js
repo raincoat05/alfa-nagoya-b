@@ -94,7 +94,7 @@ data.push(new Sean('副館長','ぼうはんシステムを起動させるには
 data.push(new Sean('主人公','なんで副館長なのに知らされてないんですか？！？！','background','blanc,fukukan'));
 data.push(new Sean('副館長','館長はこのようなことをおそれて、自分以外のだれにも知らせていなかったのでしょう。館長の器としては正しいあり方なのでしょうが......','background','blanc,fukukan'));
 data.push(new Sean('探偵ブラン','なるほど......それはこまりましたね','background','blanc,fukukan'));
-data.push(new Sean('副館長','ただ、このようなひじょう事たいにそなえて館長がパスワードのヒントとしていくつかのなぞを用意していました。それがとければぼうはんシステムを起動できます。','background','background','blanc,fukukan'));
+data.push(new Sean('副館長','ただ、このようなひじょう事たいにそなえて館長がパスワードのヒントとしていくつかのなぞを用意していました。それがとければぼうはんシステムを起動できます。','background','blanc,fukukan'));
 data.push(new Sean('探偵ブラン','それではわたしたちはけいび室にい動する','background','blanc,fukukan'));
 data.push(new Sean('探偵ブラン','きみにも手伝ってもらうことがあるかもしれないがその時はよろしく','background','blanc'));
 data.push(new Sean('主人公','お気をつけて！','background','blanc'));

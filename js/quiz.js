@@ -4,7 +4,7 @@ $(function () {
         console.log(value);
         $(function(){
             const answer = value ;
-            if (answer == 'aaa'){
+            if (answer == 'ピエロ'){
                 console.log("正解");
                 $(".hide").css("display","inline");
             }else{
