@@ -6,7 +6,7 @@ class Sean{
         this.character1 = character1;
     };
 };
-
+    
 var data= [];
 //謎1正解後
 data.push(new Sean('受信音','〜♪','museumOutside.jpg','null'));
