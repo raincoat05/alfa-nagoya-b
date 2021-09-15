@@ -52,6 +52,9 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background;
     document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
+    if(count == 31){
+        window.location.href = "/beta-nagoya-b/ending.html";
+    };
 };
 
 $(function(){
