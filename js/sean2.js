@@ -107,7 +107,7 @@ var skip = function(){
     document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
     if(count == 4,5,6){
-        $(".background").css("filter","brue(0px) grayscale(0%)");
+        $(".background").css("filter","none");
     }
     if(count == 87){
         window.location.href = "/beta-nagoya-b/quiz3.html";
