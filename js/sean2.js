@@ -106,6 +106,9 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background;
     document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
+    if(count == 4,5,6){
+        (".background").css("filter","brue(0px) grayscale(0%)");
+    }
     if(count == 87){
         window.location.href = "/beta-nagoya-b/quiz3.html";
     };
