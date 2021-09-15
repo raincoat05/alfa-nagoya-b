@@ -32,7 +32,7 @@ var skip = function(){
     count++;
     console.log(count);
     if(count == 11){
-        window.location.href = "/quiz1.html";
+        window.location.href = "/beta-nagoya-b/quiz1.html";
     };
 };
 
