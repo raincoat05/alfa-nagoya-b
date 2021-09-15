@@ -96,6 +96,7 @@ data.push(new Sean('探偵ブラン','きみにも手伝ってもらうことが
 data.push(new Sean('主人公','お気をつけて！','background','blanc'));
 data.push(new Sean('副館長','ここがけいび室です。これがぼうはんシステム起動のスイッチのようですね。','background','fukukan'));
 data.push(new Sean('探偵ブラン','8けたの数字を入力する必要があるようですね......４けたずつで分けてとけそうだな、君は前の4けたをといてくれ！わたしは後の4けたをとく！','background','blanc'));
+data.push(new Sean('探偵ブラン','8けたの数字を入力する必要があるようですね......４けたずつで分けてとけそうだな、君は前の4けたをといてくれ！わたしは後の4けたをとく！','background','blanc'));
 
 var count = 0;
 
@@ -105,7 +106,7 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background;
     document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
-    if(count == 85){
+    if(count == 87){
         window.location.href = "/beta-nagoya-b/quiz3.html";
     };
 };
