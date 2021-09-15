@@ -10,24 +10,19 @@ class Sean{
 var data= [];
 //謎1正解後
 data.push(new Sean('受信音','〜♪','museumOutside.jpg','null'));
-data.push(new Sean('探偵ブラン','おめでとう！！きみが最初の正かい者だ','background','blanc'));
-data.push(new Sean('探偵ブラン','ぜひともわたしの助手になってくれ！','background','blanc'));
-data.push(new Sean('主人公','もちろんです！','background','blanc'));
-data.push(new Sean('探偵ブラン','ありがとう！早速だが説明させてもらおう','background','blanc'));
-data.push(new Sean('探偵ブラン','まず、きみにはこの予告状をみてもらいたい','background','blanc'));
-data.push(new Sean('探偵ブラン','見ての通りこの予告状は暗号になっている','background','blanc'));
-data.push(new Sean('探偵ブラン','この内ようがわからないとわたしたちは怪盗のはん行を止めることができない','background','blanc'));
-data.push(new Sean('探偵ブラン','そこで、試験を見事とっぱしたきみに、ぜひこれをといてもらいたい','background','blanc'));
-data.push(new Sean('主人公','わかりました！がんばります！','background','blanc'));
+data.push(new Sean('探偵ブラン','おめでとう！！きみが最初の正かい者だ','museumOutside.jpg','blanc'));
+data.push(new Sean('探偵ブラン','ぜひともわたしの助手になってくれ！','museumOutside.jpg','blanc'));
+data.push(new Sean('主人公','もちろんです！','museumOutside.jpg','blanc'));
+data.push(new Sean('探偵ブラン','ありがとう！早速だが説明させてもらおう','museumOutside.jpg','blanc'));
+data.push(new Sean('探偵ブラン','まず、きみにはこの予告状をみてもらいたい','museumOutside.jpg','blanc'));
+data.push(new Sean('探偵ブラン','見ての通りこの予告状は暗号になっている','museumOutside.jpg','blanc'));
+data.push(new Sean('探偵ブラン','この内ようがわからないとわたしたちは怪盗のはん行を止めることができない','museumOutside.jpg','blanc'));
+data.push(new Sean('探偵ブラン','そこで、試験を見事とっぱしたきみに、ぜひこれをといてもらいたい','museumOutside.jpg','blanc'));
+data.push(new Sean('主人公','わかりました！がんばります！','museumOutside.jpg','blanc'));
+data.push(new Sean('主人公','わかりました！がんばります！','museumOutside.jpg','blanc'));
 //謎2に飛ぶ
 
 var count = 0;
-
-$(function(){
-    if(count == 5){
-        window.location.href = "http://uxmilk.jp";
-    }
-})
 
 var skip = function(){
     document.getElementsByClassName("speakerName")[0].innerHTML=data[count].speakerName;
@@ -35,7 +30,12 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background;
     document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
+    console.log(count);
+    if(count == 11){
+        window.location.href = "/quiz1.html";
+    };
 };
+
 
 $(function(){
     $(skip);
