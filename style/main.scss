@@ -9,10 +9,17 @@ body {
 a {
     text-decoration: none;
 }
+#audio{
+    display: block;
+    height: 5vh;
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 2vh;
+}
 
 #titlevisual {
     display: block;
-    height: 100vh;
+    height: 93vh;
     margin: 0 auto;
 }
 #opening {
