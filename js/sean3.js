@@ -42,6 +42,7 @@ data.push(new Sean('主人公','......どっちが姉なんだ？','background',
 data.push(new Sean('メールの着信音','〜♪','background','null'));
 data.push(new Sean('主人公','？？？','background','null'));
 data.push(new Sean('主人公','Noir......Noir！？','background','null'));
+data.push(new Sean('主人公','Noir......Noir！？','background','null'));
 //メールの画像表示、真のエンディング？
 
 var count = 0;
