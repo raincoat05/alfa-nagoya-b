@@ -6,6 +6,7 @@
 body {
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 a {
@@ -50,7 +51,6 @@ iframe {
 }
 
 #background {
-  position: relative;
   width: 100vw;
   height: 100vh;
   -webkit-filter: blur(2px) grayscale(90%);
@@ -59,13 +59,6 @@ iframe {
 
 #characterBox {
   width: 80vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -92,7 +85,7 @@ iframe {
 }
 
 #textBox .textBoxFrame {
-  position: absolute;
+  position: relative;
   z-index: 3;
   width: 85vw;
   bottom: 1vh;
@@ -102,36 +95,47 @@ iframe {
 }
 
 #textBox .speakerName {
-  font-size: 36px;
   position: absolute;
+  font-size: 2.8vw;
   z-index: 10;
   width: 85%;
-  bottom: 23vh;
+  top: 20px;
   left: 0;
   right: 0;
   margin: auto;
 }
 
 #textBox .speakText {
-  font-size: 24px;
   position: absolute;
+  font-size: 1.5vw;
   z-index: 10;
   width: 85%;
-  top: -22vh;
-  bottom: 0;
+  top: 85px;
   left: 0;
   right: 0;
   margin: auto;
 }
 
-.skipButton {
+#textBox .skipButton {
   font-size: 24px;
+  color: black;
   position: absolute;
   z-index: 10;
-  bottom: 4vh;
+  bottom: 5vh;
   right: 0;
-  left: 70vw;
+  margin-right: 5vw;
+  padding: 10px;
   float: right;
+  border: solid #7790ff;
+  border-radius: 20%;
+  cursor: pointer;
+  background: #9ce3ff;
+}
+
+#textBox .skipButton:hover {
+  color: #182020;
+  border: solid #506dee;
+  background: #c1ecff;
 }
 
 #quizBackground {
@@ -154,14 +158,14 @@ iframe {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
 }
 
 #quizContainer .quizImg {
-  height: 40vh;
+  height: 65vh;
   margin-bottom: 20px;
 }
 
