@@ -2,17 +2,26 @@ $(function () {
     $("#answerBtn").click(function () {
         const value = document.getElementById("answer").value;
         console.log(value);
-        $(function(){
-            const answer = value ;
-            if (answer == 'ピエロ','ぴえろ'){
-                console.log("正解");
-                $(".hide").css("display","inline");
-                $(".quizText").css("display","none");
-                $(".quizImg").css("display","none");
-                $("#answerContainer").css("display","none");
-                $("#quizContainer").css("height","40vh");
-            }else{
-                console.log("不正解");
+        $(function (
+
+        ) {
+            const answer = value;
+            if (answer == 'ピエロ' || answer == 'ぴえろ') {
+                $(".clear").html("正解!!")
+                $(".clearText").html("次のストーリーに進む");
+                $(".clear").css("display", "inline");
+                $(".quizText").css("display", "none");
+                $(".quizImg").css("display", "none");
+                $("#answerContainer").css("display", "none");
+                $("#quizContainer").css("height", "40vh");
+            } else {
+                $(".notClear").html("不正解");
+                $(".notClearText").html("もう一度");
+                $(".notClear").css("display", "inline");
+                $(".quizText").css("display", "none");
+                $(".quizImg").css("display", "none");
+                $("#answerContainer").css("display", "none");
+                $("#quizContainer").css("height", "40vh");
             };
         });
     });

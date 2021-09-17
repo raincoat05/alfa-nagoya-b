@@ -14,6 +14,7 @@
 <body>
     <img src="./img/background/sss.jpg" id="quizBackground">
     <div id="quizContainer">
+        <audio src="./audio/quiz1.mp3"autoplay loop controls></audio>
         <img src="./img/quiz/quiz3.png" alt="" class="quizImg">
         <p class="quizText">みんなで考えよう</p>
 
@@ -21,11 +22,14 @@
             <input type="text" placeholder="ここに入力" id="answer">
             <button id="answerBtn">送信！！</button>
         </div>
-        <p class="hide">正解!!</p>
-        <a href="./ending.html" class="nextBtn hide">次のストーリーに進む</a>
+        <p class="clear"></p>
+        <p class="notClear"></p>
+        <a href="./seen3.html" class="nextBtn clear clearText">次のストーリーに進む</a>
+        <a href="" class="notClear nextBtn notClearText">もう一度</a>
     </div>
 
     <script src="./js/quiz3.js"></script>
+    <script src="./js/audio.js"></script>
 </body>
 
 </html>

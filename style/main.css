@@ -118,7 +118,7 @@ iframe {
 
 #textBox .skipButton {
   font-size: 24px;
-  color: black;
+  color: white;
   position: absolute;
   z-index: 10;
   bottom: 5vh;
@@ -126,16 +126,16 @@ iframe {
   margin-right: 5vw;
   padding: 10px;
   float: right;
-  border: solid #7790ff;
+  border: solid black;
   border-radius: 20%;
   cursor: pointer;
-  background: #9ce3ff;
+  background: #5e5e5e;
 }
 
 #textBox .skipButton:hover {
   color: #182020;
   border: solid #506dee;
-  background: #c1ecff;
+  background: #b4b4b4;
 }
 
 #quizBackground {
@@ -203,7 +203,13 @@ iframe {
   text-align: center;
 }
 
-#quizContainer .hide {
+#quizContainer .clear {
+  display: none;
+  font-size: 80px;
+  color: #ff7d7d;
+}
+
+#quizContainer .notClear {
   display: none;
   font-size: 80px;
   color: #ff7d7d;
@@ -212,6 +218,10 @@ iframe {
 #quizContainer .nextBtn {
   font-size: 50px;
   color: #57abfa;
+}
+
+.notClear {
+  display: none;
 }
 
 #answerBtn {

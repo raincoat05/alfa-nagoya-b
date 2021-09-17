@@ -98,7 +98,7 @@ iframe {
     }
     .skipButton {
         font-size: 24px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         position: absolute;
         z-index: 10;
         bottom: 5vh;
@@ -106,14 +106,14 @@ iframe {
         margin-right: 5vw;
         padding: 10px;
         float: right;
-        border: solid rgb(119, 144, 255);
+        border: solid rgb(0, 0, 0);
         border-radius: 20%;
         cursor: pointer;
-        background: rgb(156, 227, 255);
+        background: rgb(94, 94, 94);
     }.skipButton:hover {
         color: rgb(24, 32, 32);
         border: solid rgb(80, 109, 238);
-        background: rgb(193, 236, 255);
+        background: rgb(180, 180, 180);
     }
 }
 
@@ -156,7 +156,12 @@ iframe {
             text-align: center;
         }
     }
-    .hide {
+    .clear {
+        display: none;
+        font-size: 80px;
+        color: rgb(255, 125, 125);
+    }
+    .notClear{
         display: none;
         font-size: 80px;
         color: rgb(255, 125, 125);
@@ -166,7 +171,9 @@ iframe {
         color: rgb(87, 171, 250);
     }
 }
-
+.notClear{
+    display: none;
+}
 #answerBtn {
     width: 100%;
     padding-top: 10px;
