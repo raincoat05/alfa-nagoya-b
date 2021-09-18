@@ -35,6 +35,15 @@ iframe {
     align-items: center;
     #startGameLink {
         font-size: 80px;
+        border: solid;
+        border-radius: 1rem;
+        padding: 3rem;
+        background: rgb(255, 255, 255);
+        color: rgb(101, 147, 247);
+    }
+    #startGameLink:hover {
+        background: rgb(247, 247, 247);
+        color: rgb(247, 101, 101);
     }
 }
 

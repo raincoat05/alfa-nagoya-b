@@ -48,6 +48,16 @@ iframe {
 
 #startGame #startGameLink {
   font-size: 80px;
+  border: solid;
+  border-radius: 1rem;
+  padding: 3rem;
+  background: white;
+  color: #6593f7;
+}
+
+#startGame #startGameLink:hover {
+  background: #f7f7f7;
+  color: #f76565;
 }
 
 #background {
