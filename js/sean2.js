@@ -106,9 +106,18 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background;
     document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
-    if(count == 4,5,6){
+    if(count == 4 || count == 5 || count == 6){
         $("#background").css("filter","none");
-    }
+    }else{
+        $("#background").css("filter","blur(2px) grayscale(90%)");
+    };
+    // if(count == 48){
+    //     $(".skipButton").css("display","none");
+    //     $(".exskip").addClass("skipButton");
+    // }else{
+    //     $(".skipButton").css("display","block");
+    //     $(".exskip").removeClass("skipButton");
+    // };
     if(count == 87){
         window.location.href = "/beta-nagoya-b/quiz3.html";
     };
