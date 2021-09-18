@@ -10,7 +10,7 @@ body {
 a {
     text-decoration: none;
 }
-#audio{
+#audio {
     display: block;
     height: 5vh;
     width: 40vw;
@@ -35,15 +35,6 @@ iframe {
     align-items: center;
     #startGameLink {
         font-size: 80px;
-        border: solid;
-        border-radius: 1rem;
-        padding: 3rem;
-        background: rgb(255, 255, 255);
-        color: rgb(101, 147, 247);
-    }
-    #startGameLink:hover {
-        background: rgb(247, 247, 247);
-        color: rgb(247, 101, 101);
     }
 }
 
@@ -107,22 +98,13 @@ iframe {
     }
     .skipButton {
         font-size: 24px;
-        color: rgb(255, 255, 255);
         position: absolute;
         z-index: 10;
         bottom: 5vh;
         right: 0;
         margin-right: 5vw;
-        padding: 5px;
-        float: right;
-        border: solid rgb(0, 0, 0);
-        border-radius: 20%;
         cursor: pointer;
-        background: rgb(94, 94, 94);
-    }.skipButton:hover {
-        color: rgb(24, 32, 32);
-        border: solid rgb(80, 109, 238);
-        background: rgb(180, 180, 180);
+        padding: 8px;
     }
 }
 
@@ -139,7 +121,7 @@ iframe {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    .quizImg{
+    .quizImg {
         height: 65vh;
         margin-bottom: 20px;
     }
@@ -152,7 +134,6 @@ iframe {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 30vh;
         width: 40vw;
         #answer {
             background: rgb(204, 255, 224);
@@ -168,19 +149,19 @@ iframe {
     .clear {
         display: none;
         font-size: 80px;
-        color: rgb(255, 125, 125);
     }
-    .notClear{
+    .notClear {
         display: none;
         font-size: 80px;
-        color: rgb(255, 125, 125);
     }
     .nextBtn {
         font-size: 50px;
-        color: rgb(87, 171, 250);
+    }
+    p{
+        color: rgb(247, 101, 101);
     }
 }
-.notClear{
+.notClear {
     display: none;
 }
 #answerBtn {
@@ -192,4 +173,17 @@ iframe {
 }
 #answerBtn:hover {
     background: rgb(64, 153, 165);
+}
+
+.btn {
+    border: solid;
+    border-radius: 1rem;
+    padding: 3rem;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: rgb(101, 147, 247);
+}
+.btn:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(247, 101, 101);
 }

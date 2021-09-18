@@ -13,7 +13,6 @@ $(function () {
                 $(".quizText").css("display", "none");
                 $(".quizImg").css("display", "none");
                 $("#answerContainer").css("display", "none");
-                $("#quizContainer").css("height", "40vh");
             } else {
                 $(".notClear").html("不正解");
                 $(".notClearText").html("もう一度");
@@ -21,7 +20,6 @@ $(function () {
                 $(".quizText").css("display", "none");
                 $(".quizImg").css("display", "none");
                 $("#answerContainer").css("display", "none");
-                $("#quizContainer").css("height", "40vh");
             };
         });
     });

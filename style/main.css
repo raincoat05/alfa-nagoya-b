@@ -48,16 +48,6 @@ iframe {
 
 #startGame #startGameLink {
   font-size: 80px;
-  border: solid;
-  border-radius: 1rem;
-  padding: 3rem;
-  background: white;
-  color: #6593f7;
-}
-
-#startGame #startGameLink:hover {
-  background: #f7f7f7;
-  color: #f76565;
 }
 
 #background {
@@ -128,24 +118,13 @@ iframe {
 
 #textBox .skipButton {
   font-size: 24px;
-  color: white;
   position: absolute;
   z-index: 10;
   bottom: 5vh;
   right: 0;
   margin-right: 5vw;
-  padding: 5px;
-  float: right;
-  border: solid black;
-  border-radius: 20%;
   cursor: pointer;
-  background: #5e5e5e;
-}
-
-#textBox .skipButton:hover {
-  color: #182020;
-  border: solid #506dee;
-  background: #b4b4b4;
+  padding: 8px;
 }
 
 #quizBackground {
@@ -198,7 +177,6 @@ iframe {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 30vh;
   width: 40vw;
 }
 
@@ -216,18 +194,19 @@ iframe {
 #quizContainer .clear {
   display: none;
   font-size: 80px;
-  color: #ff7d7d;
 }
 
 #quizContainer .notClear {
   display: none;
   font-size: 80px;
-  color: #ff7d7d;
 }
 
 #quizContainer .nextBtn {
   font-size: 50px;
-  color: #57abfa;
+}
+
+#quizContainer p {
+  color: #f76565;
 }
 
 .notClear {
@@ -244,5 +223,19 @@ iframe {
 
 #answerBtn:hover {
   background: #4099a5;
+}
+
+.btn {
+  border: solid;
+  border-radius: 1rem;
+  padding: 3rem;
+  cursor: pointer;
+  background: white;
+  color: #6593f7;
+}
+
+.btn:hover {
+  background: white;
+  color: #f76565;
 }
 /*# sourceMappingURL=main.css.map */
