@@ -30,7 +30,6 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background;
     document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
-    console.log(count);
     if(count == 11){
         window.location.href = "/beta-nagoya-b/quiz2.html";
     };

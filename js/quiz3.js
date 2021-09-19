@@ -3,8 +3,7 @@ $(function () {
         const value = document.getElementById("answer").value;
         console.log(value);
         $(function (
-
-        ) {
+        ){
             const answer = value;
             if (answer == '1452') {
                 $(".clear").html("正解!!")
