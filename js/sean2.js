@@ -87,7 +87,7 @@ data.push(new Sean('？？？', 'クックック...。ばれてしまったの�
 data.push(new Sean('怪盗Noir', 'やぁ、私は怪盗Noir。君のすい理通りモナリザをぬすみにきたんだ。', 'noMonalisa', 'noir'));
 data.push(new Sean('怪盗Noir', '私の変そうを見ぬくとはすばらしい。どうだい？私の助手にねがえるというのは？世界各地の美じゅつ品をながめながら楽しむティータイムというのもいいものだよ。', 'noMonalisa', 'noir'));
 data.push(new Sean('主人公', 'そんなことするわけない！', 'noMonalisa', 'noir'));
-data.push(new Sean('？？？', 'やめろ！私の助手に手を出すな！', 'noMonalisa', 'silhouetteblanc'));
+data.push(new Sean('？？？', 'やめろ！私の助手に手を出すな！', 'noMonalisa', 'silhouetteBlanc'));
 data.push(new Sean('怪盗Noir', 'おやおや、これはこれは。ブラン君ではないか。君の助手はとてもゆうしゅうだね！おかげで楽しかったよ。', 'noMonalisa', 'noir,blanc'));
 data.push(new Sean('探偵ブラン', 'おい！モナ・リザを返せ！', 'noMonalisa', 'noir,blanc'));
 data.push(new Sean('怪盗Noir', 'それはいただいていくよ。せいぜい私に助手までとられないように気をつけているんだね。', 'noMonalisa', 'noir,blanc'));
@@ -182,7 +182,7 @@ var skip = function () {
         $(".skipButton").css("display", "block");
     };
 
-    if (count == 87) {
+    if (count == 88) {
         window.location.href = "/beta-nagoya-b/quiz3.html";
     };
 };
