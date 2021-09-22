@@ -26,6 +26,7 @@ data.push(new Sean('探偵ブラン','この付近にNoirはいるはずだが..
 data.push(new Sean('副館長','見当たりませんね。','artmuseumInside','blanc,fukukan'));
 data.push(new Sean('主人公','ブランさん、そこに何か落ちてませんか？','artmuseumInside','blanc,fukukan'));
 data.push(new Sean('探偵ブラン','お、なんだこれは？','artmuseumInside','blanc,fukukan'));
+data.push(new Sean('探偵ブラン','お、なんだこれは？','letter','blanc,fukukan'));
 //*********************************************
 //手紙を表示
 //BGM怪盗のテーマ
@@ -66,12 +67,23 @@ var skip = function(){
         var media = document.getElementById("audio");
         media.volume = 0.3 
     };
-    if(count == 21){
+    if(count == 22){
         document.getElementById("audio").src = './audio/ending.mp3';
         var media = document.getElementById("audio");
         media.volume = 0.5
     };
-    if(count == 34){
+
+    if(count == 16){
+        $("#textBox").css("display","none");
+        $("#background").css("filter", "none");
+        $("#characterBox").css("display","none");
+    }else{
+        $("#textBox").css("display","block");
+        $("#background").css("filter", "blur(2px) grayscale(90%)");
+        $("#characterBox").css("display","block");
+    }
+    
+    if(count == 35){
         $("#textBox").css("display","none");
         $("#background").css("filter", "none");
         $("#characterBox").css("display","none");
@@ -86,5 +98,13 @@ $(function(){
 $(function () {
     $(".skipButton").click(function () {
         $(skip);
+    });
+});
+
+$(function () {
+    $(".exskip").click(function () {
+        if (count == 16) {
+            $(skip);
+        }
     });
 });
