@@ -50,7 +50,10 @@ var skip = function(){
     if(count == 21){
         window.location.href = "/beta-nagoya-b/ending.html";
     };
-
+    if(count == 1){
+        var media = document.getElementById("audio");
+        media.volume = 0.5
+    }
     if(count == 16){
         document.getElementById("audio").src = './audio/tounan.mp3';
         var media = document.getElementById("audio");
