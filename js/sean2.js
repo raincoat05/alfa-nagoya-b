@@ -15,7 +15,7 @@ data.push(new Sean('探偵ブラン','きみはそこからわたしをサポー
 //ここから美術館
 data.push(new Sean('ルーブル美術館','ルーヴル美じゅつ館はフランスのパリにある、世界最大の美じゅつ館。所蔵している作品は38万点以上。','artmuseumOutside','null'));
 data.push(new Sean('ルーブル美術館','5000年以上前から19世紀までのさまざまな美じゅつ品計3万5,000点近くを、そう面積約7万平方メートル(東京ドームの約1.5倍)の広さがある展示(てんじ)場所で見学することができる。','artmuseumOutside','null'));
-data.push(new Sean('ルーブル美術館','世界でもっとも入場者数の多い美じゅつ館で、毎年800万人をこえる入場者が訪(おとず)れる。そのコレクションの一部は、日本を含(ふく)め海外へ貸(か)し出されることも多い。(「ルーヴル美術館」『フリー百科事典　ウィキペディア日本語版』より。)','artmuseumOutside','null'));
+data.push(new Sean('ルーブル美術館','世界でもっとも入場者数の多い美じゅつ館で、毎年800万人をこえる入場者が訪おとずれる。','artmuseumOutside','null'));
 data.push(new Sean('探偵','もしもし、私だ。たった今ルーブル美じゅつ館にとう着した。今から調さを行う。','artmuseumInside','blanc'));
 data.push(new Sean('探偵','こちらの様子はつねに私のカメラで見れるはずだし、何かあり次第連らくするのでよろしく。','artmuseumInside','blanc'));
 data.push(new Sean('主人公','はい！','artmuseumInside','blanc'));

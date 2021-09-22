@@ -40,8 +40,9 @@ iframe {
 
 #background {
     height: 100vh;
+    width: 100vw;
     overflow: hidden;
-    filter: blur(2px) grayscale(90%);
+    filter: blur(2px) grayscale(50%);
 }
 #characterBox {
     width: 80vw;
