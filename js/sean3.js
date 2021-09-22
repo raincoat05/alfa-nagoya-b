@@ -52,6 +52,7 @@ data.push(new Sean('主人公','すごく大変だったなぁー。まさかブ
 data.push(new Sean('主人公','......どっちが姉なんだ？','room','null'));
 data.push(new Sean('メールの着信音','〜♪','room','null'));
 data.push(new Sean('主人公','？？？','room','null'));
+data.push(new Sean('主人公','Noir......Noir！？','finalletter','null'));
 data.push(new Sean('主人公','Noir......Noir！？','room','null'));
 data.push(new Sean('主人公','Noir......Noir！？','clear','null'));
 //*********************************************
@@ -86,7 +87,7 @@ var skip = function(){
         $("#characterBox").css("display","block");
     }
     
-    if(count == 35){
+    if(count == 34 ||count == 36){
         $("#textBox").css("display","none");
         $("#background").css("filter", "none");
         $("#characterBox").css("display","none");
@@ -106,7 +107,7 @@ $(function () {
 
 $(function () {
     $(".exskip").click(function () {
-        if (count == 16) {
+        if (count == 16 ||count == 34) {
             $(skip);
         }
     });
