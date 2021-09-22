@@ -10,17 +10,16 @@ body {
 a {
     text-decoration: none;
 }
+
 #audio {
-    display: block;
-    height: 5vh;
-    width: 40vw;
-    margin: 0 auto;
-    margin-top: 2vh;
+    position: absolute;
+    bottom: 90vh;
+    left: 20px;
 }
 
 #titlevisual {
     display: block;
-    height: 93vh;
+    height: 100vh;
     margin: 0 auto;
 }
 iframe {
@@ -97,10 +96,10 @@ iframe {
         max-height: 20vh;
     }
     .skipButton {
-        font-size: 24px;
+        font-size: 1.8vw;
         position: absolute;
         z-index: 10;
-        bottom: 5vh;
+        bottom: 7vh;
         right: 0;
         margin-right: 5vw;
         cursor: pointer;
