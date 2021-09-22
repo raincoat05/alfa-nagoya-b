@@ -136,67 +136,17 @@ data.push(new Sean('探偵ブラン', '8けたの数字を入力する必要が�
 var count = 0;
 
 var skip = function () {
-    document.getElementsByClassName("speakerName")[0].innerHTML = data[count].speakerName;
-    document.getElementsByClassName("speakText")[0].innerHTML = data[count].speakText;
-    document.getElementById("background").src = './img/background/' + data[count].background + '.jpg';
-    document.getElementById("character1").src = './img/character/' + data[count].character1 + '.png';
-    count++;
-
-    if (count == 4 || count == 5 || count == 6) {
-        $("#background").css("filter", "none");
-    } else {
-        $("#background").css("filter", "blur(2px) grayscale(90%)");
-    };
-
-    if (count == 4) {
-        document.getElementById("audio").src = './audio/museum.mp3';
-        var media = document.getElementById("audio");
-        media.volume = 1
+    var speakerName = document.getElementsByClassName("speakerName")[0].innerHTML = data[count].speakerName;
+    var speakText = document.getElementsByClassName("speakText")[0].innerHTML = data[count].speakText;
+    var add_contents = '<tr><td class="tableLeft">'+ speakerName +'</td><td class="tableRight">'+speakText +'</td></tr>'
+    $('#log').append(add_contents);
+    count++
+    if(count == 87){
+        $(".speakerName").css("display","none");
+        $(".speakText").css("display","none");
     }
-    if(count == 22){
-        var media = document.getElementById("audio");
-        media.volume = 0
-    };
-    if(count == 29){
-        document.getElementById("audio").src = './audio/tounan.mp3';
-        var media = document.getElementById("audio");
-        media.volume = 1
-    };
-    if(count == 40){
-        var media = document.getElementById("audio");
-        media.volume = 0
-    };
-    if(count == 51){
-        document.getElementById("audio").src = './audio/tounan.mp3';
-        var media = document.getElementById("audio");
-        media.volume = 1
-    };
-
-    if (count == 48) {
-        $(".skipButton").css("display", "none");
-    } else {
-        $(".skipButton").css("display", "block");
-    };
-
-    if (count == 87) {
-        window.location.href = "/beta-nagoya-b/quiz3.html";
-    };
 };
 
-$(function () {
+for(let count = 0 ;count < 87 ;count++){
     $(skip);
-});
-
-$(function () {
-    $(".skipButton").click(function () {
-        $(skip);
-    });
-});
-
-$(function () {
-    $(".exskip").click(function () {
-        if (count == 48) {
-            $(skip);
-        }
-    });
-});
+};

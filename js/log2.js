@@ -35,35 +35,24 @@ data.push(new Sean('主人公','おしいところまでは行ったみたいで
 data.push(new Sean('探偵ブラン','次こそはつかまえてやる！ところで、今回ここまで追いつめることができたのもきみのおかげだ　感しゃしている','artmuseumInside','blanc'));
 data.push(new Sean('主人公','こちらこそです、ブランさん。それではモナ・リザが無事か確認に行きましょう！','artmuseumInside','blanc'));
 data.push(new Sean('探偵ブラン','そうしよう！','artmuseumInside','blanc'));
-data.push(new Sean('null','〜END〜','monalisaUp','null'));
-data.push(new Sean('null','〜END〜','monalisaUp','null'));
+data.push(new Sean(' ','〜END〜','monalisaUp','null'));
+data.push(new Sean(' ',' ','monalisaUp','null'));
 //メールの画像表示、真のエンディング？
 
 var count = 0;
 
-var skip = function(){
-    document.getElementsByClassName("speakerName")[0].innerHTML=data[count].speakerName;
-    document.getElementsByClassName("speakText")[0].innerHTML=data[count].speakText;
-    document.getElementById("background").src='./img/background/'+ data[count].background + '.jpg';
-    document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
-    count++;
+var skip = function () {
+    var speakerName = document.getElementsByClassName("speakerName")[0].innerHTML = data[count].speakerName;
+    var speakText = document.getElementsByClassName("speakText")[0].innerHTML = data[count].speakText;
+    var add_contents = '<tr><td class="tableLeft">'+ speakerName +'</td><td class="tableRight">'+speakText +'</td></tr>'
+    $('#log').append(add_contents);
+    count++
     if(count == 21){
-        window.location.href = "/beta-nagoya-b/ending.html";
-    };
-
-    if(count == 16){
-        document.getElementById("audio").src = './audio/tounan.mp3';
-        var media = document.getElementById("audio");
-        media.volume = 1
+        $(".speakerName").css("display","none");
+        $(".speakText").css("display","none");
     }
 };
 
-$(function(){
+for(let count = 0 ;count < 21 ;count++){
     $(skip);
-});
-
-$(function () {
-    $(".skipButton").click(function () {
-        $(skip);
-    });
-});
+};

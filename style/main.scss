@@ -192,3 +192,28 @@ iframe {
     background: rgb(255, 255, 255);
     color: rgb(247, 101, 101);
 }
+
+table,
+td{
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+th,
+td {
+    padding: 20px 15px;
+    border-bottom: 2px solid;
+}
+th{
+    font-size: 30px;
+}
+.tableLeft{
+    width: 20vw;
+    text-align: center;
+    background: rgb(218, 218, 218);
+    font-size: 20px;
+}
+.tableRight{
+    width: 70vw;
+    font-size: 19px;
+}
