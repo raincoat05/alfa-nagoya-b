@@ -49,14 +49,14 @@ var skip = function(){
     count++;
     if(count == 1){
         var media = document.getElementById("audio");
-        media.volume = 0.5 
+        media.volume = 0.3 
     };
     if(count == 16){
         document.getElementById("audio").src = './audio/tounan.mp3';
         var media = document.getElementById("audio");
         media.volume = 1
     };
-    
+
     if(count == 21){
         window.location.href = "/beta-nagoya-b/ending.html";
     };

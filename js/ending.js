@@ -23,7 +23,7 @@ data.push(new Sean('主人公','......どっちが姉なんだ？','room','null'
 data.push(new Sean('メールの着信音','〜♪','room','null'));
 data.push(new Sean('主人公','？？？','room','null'));
 data.push(new Sean('主人公','Noir......Noir！？','room','null'));
-data.push(new Sean('主人公','Noir......Noir！？','room','null'));
+data.push(new Sean('主人公','Noir......Noir！？','clear','null'));
 //メールの画像表示、真のエンディング？
 
 var count = 0;
@@ -40,7 +40,9 @@ var skip = function(){
         media.volume = 0.5
     }
     if(count == 14){
-        
+        $("#textBox").css("display","none");
+        $("#background").css("filter", "none");
+        $("#characterBox").css("display","none");
     };
 };
 
