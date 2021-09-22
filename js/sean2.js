@@ -18,7 +18,7 @@ data.push(new Sean('探偵ブラン', 'きみはそこからわたしをサポ�
 //*********************************************
 data.push(new Sean('ルーブル美術館', 'ルーヴル美じゅつ館はフランスのパリにある、世界最大の美じゅつ館。所蔵している作品は38万点以上。', 'artmuseumOutside', 'null'));
 data.push(new Sean('ルーブル美術館', '5000年以上前から19世紀までのさまざまな美じゅつ品計3万5,000点近くを、そう面積約7万平方メートル(東京ドームの約1.5倍)の広さがある展示(てんじ)場所で見学することができる。', 'artmuseumOutside', 'null'));
-data.push(new Sean('ルーブル美術館', '世界でもっとも入場者数の多い美じゅつ館で、毎年800万人をこえる入場者が訪おとずれる。', 'artmuseumOutside', 'null'));
+data.push(new Sean('ルーブル美術館', '世界でもっとも入場者数の多い美じゅつ館で、毎年800万人をこえる入場者がおとずれる。', 'artmuseumOutside', 'null'));
 data.push(new Sean('探偵', 'もしもし、私だ。たった今ルーブル美じゅつ館にとう着した。今から調さを行う。', 'artmuseumInside', 'blanc'));
 data.push(new Sean('探偵', 'こちらの様子はつねに私のカメラで見れるはずだし、何かあり次第連らくするのでよろしく。', 'artmuseumInside', 'blanc'));
 data.push(new Sean('主人公', 'はい！', 'artmuseumInside', 'blanc'));
@@ -28,7 +28,7 @@ data.push(new Sean('副館長', 'こちらこそ。早速当館を案内しま�
 //*********************************************
 //モナリザをカラーに
 //*********************************************
-data.push(new Sean('探偵', 'おお、これが。', 'monalisa', 'blanc'));
+data.push(new Sean('探偵', 'おお、これが。', 'monalisaUp', 'blanc'));
 data.push(new Sean('副館長', 'はい、これが "世界で最も有名で、多くの人にかんしょうされ、書かれ、歌にされ、パロディ化された" と言われる有名な絵画「モナ・リザ」です。', 'monalisaUp', 'null'));
 data.push(new Sean('副館長', '「モナ・リザ」はもともとそこまで有名な作品ではありませんでした。', 'monalisaUp', 'null'));
 data.push(new Sean('副館長', 'しかし、かの有名な画家のピカソもまきこんだ盗なん事けんによって、世界から大きく注目され、今では世界で最も有名な絵画とよばれるようになったのです。', 'monalisaUp', 'null'));
@@ -93,10 +93,14 @@ data.push(new Sean('探偵ブラン','おい！モナ・リザを返せ！','noM
 data.push(new Sean('怪盗Noir','それはいただいていくよ。せいぜい私に助手までとられないように気をつけているんだね。','noMonalisa','noir,blanc'));
 data.push(new Sean('探偵ブラン','よけいなお世話だ！','noMonalisa','blanc'));
 data.push(new Sean('怪盗Noir','それでは、Adieu！(さようなら！)','noMonalisa','noir,blanc'));
+//*********************************************
 //鬼くそ光る
+//*********************************************
 data.push(new Sean('探偵ブラン','うっ、まぶしいっ','noMonalisa','blanc'));
 data.push(new Sean('主人公','うわあああ！目が！目が！','noMonalisa','null'));
+//*********************************************
 //鬼くそ光るとこから戻る
+//*********************************************
 data.push(new Sean('探偵ブラン', 'にげられてしまったか......', 'noMonalisa', 'blanc'));
 data.push(new Sean('主人公', 'ブランさん！なんとかつかままえる方法はないんですか！？', 'noMonalisa', 'blanc'));
 data.push(new Sean('探偵ブラン', 'うーむ、今Noirがどこにいるのかが分からないときびしいんだ。この美じゅつ館内にいるとは思うのだが......', 'noMonalisa', 'blanc'));
@@ -127,6 +131,9 @@ data.push(new Sean(' ', '移動中', 'black', 'null'));
 data.push(new Sean('副館長', 'ここがけいび室です。これがぼうはんシステム起動のスイッチのようですね。', 'securityRoom', 'fukukan'));
 data.push(new Sean('探偵ブラン', '8けたの数字を入力する必要があるようですね......４けたずつで分けてとけそうだな、君は前の4けたをといてくれ！わたしは後の4けたをとく！', 'securityRoom', 'blanc'));
 data.push(new Sean('探偵ブラン', '8けたの数字を入力する必要があるようですね......４けたずつで分けてとけそうだな、君は前の4けたをといてくれ！わたしは後の4けたをとく！', 'securityRoom', 'blanc'));
+//*********************************************
+//謎3
+//*********************************************
 
 var count = 0;
 
@@ -137,7 +144,7 @@ var skip = function () {
     document.getElementById("character1").src = './img/character/' + data[count].character1 + '.png';
     count++;
 
-    if (count == 4 || count == 5 || count == 6) {
+    if (count == 4 || count == 5 || count == 6 ||count == 13 ||count == 14 ||count == 15 ||count == 16 ||count == 17) {
         $("#background").css("filter", "none");
     } else {
         $("#background").css("filter", "blur(2px) grayscale(90%)");
