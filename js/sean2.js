@@ -96,8 +96,8 @@ data.push(new Sean('怪盗Noir','それでは、Adieu！(さようなら！)','n
 //*********************************************
 //鬼くそ光る
 //*********************************************
-data.push(new Sean('探偵ブラン','うっ、まぶしいっ','noMonalisa','blanc'));
-data.push(new Sean('主人公','うわあああ！目が！目が！','noMonalisa','null'));
+data.push(new Sean('探偵ブラン','うっ、まぶしいっ','flash','null'));
+data.push(new Sean('主人公','うわあああ！目が！目が！','flash','null'));
 //*********************************************
 //鬼くそ光るとこから戻る
 //*********************************************
@@ -173,7 +173,7 @@ var skip = function () {
         media.volume = 0
     };
     if(count == 51){
-        document.getElementById("audio").src = './audio/tounan.mp3';
+        document.getElementById("audio").src = './audio/opening.mp3';
         var media = document.getElementById("audio");
         media.volume = 1
     };
