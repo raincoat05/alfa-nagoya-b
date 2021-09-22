@@ -197,7 +197,7 @@ table,
 td{
     width: 90vw;
     margin: 0 auto;
-    margin-top: 10vh;
+    margin-top: 2vh;
 }
 th,
 td {
@@ -216,4 +216,43 @@ th{
 .tableRight{
     width: 70vw;
     font-size: 19px;
+}
+.logLink {
+    border: solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 10vw;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(101, 147, 247);
+}
+.logLink:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(247, 101, 101);
+}
+
+.linkBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90vw;
+}
+.quizLink {
+    border: solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 10vw;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background: rgb(255, 255, 255);
+    color: rgb(101, 147, 247);
+}
+.quizLink:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(247, 101, 101);
 }

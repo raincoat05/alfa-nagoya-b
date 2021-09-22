@@ -248,7 +248,7 @@ table,
 td {
   width: 90vw;
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 2vh;
 }
 
 th,
@@ -271,5 +271,54 @@ th {
 .tableRight {
   width: 70vw;
   font-size: 19px;
+}
+
+.logLink {
+  border: solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 10vw;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  background: white;
+  color: #6593f7;
+}
+
+.logLink:hover {
+  background: white;
+  color: #f76565;
+}
+
+.linkBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.quizLink {
+  border: solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 10vw;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background: white;
+  color: #6593f7;
+}
+
+.quizLink:hover {
+  background: white;
+  color: #f76565;
 }
 /*# sourceMappingURL=main.css.map */

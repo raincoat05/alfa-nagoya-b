@@ -148,6 +148,10 @@ var skip = function () {
         $("#background").css("filter", "blur(2px) grayscale(90%)");
     };
 
+    if(count == 1){
+        var media = document.getElementById("audio");
+        media.volume = 0.12
+    }
     if (count == 4) {
         document.getElementById("audio").src = './audio/museum.mp3';
         var media = document.getElementById("audio");
