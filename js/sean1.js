@@ -45,3 +45,6 @@ $(function () {
         $(skip);
     });
 });
+
+var media = document.getElementById("audio");
+media.volume = 0.14

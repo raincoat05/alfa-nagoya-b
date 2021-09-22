@@ -8,6 +8,9 @@ class Sean{
 };
 
 var data= [];
+//*********************************************
+//BGM探偵のテーマ
+//*********************************************
 data.push(new Sean('主人公','ブランさん！パスワードが分かりました！','securityRoom','blanc'));
 data.push(new Sean('探偵ブラン','本当かい？私もだ！','securityRoom','blanc'));
 data.push(new Sean('主人公','パスワードは「1452」です！','securityRoom','blanc'));
@@ -23,6 +26,10 @@ data.push(new Sean('探偵ブラン','この付近にNoirはいるはずだが..
 data.push(new Sean('副館長','見当たりませんね。','artmuseumInside','blanc,fukukan'));
 data.push(new Sean('主人公','ブランさん、そこに何か落ちてませんか？','artmuseumInside','blanc,fukukan'));
 data.push(new Sean('探偵ブラン','お、なんだこれは？','artmuseumInside','blanc,fukukan'));
+//*********************************************
+//手紙を表示
+//BGM怪盗のテーマ
+//*********************************************
 data.push(new Sean('探偵ブラン','くっ、また　Noirをのがしたか......','artmuseumInside','blanc,fukukan'));
 data.push(new Sean('主人公','おしいところまでは行ったみたいですけどね','artmuseumInside','blanc,fukukan'));
 data.push(new Sean('探偵ブラン','次こそはつかまえてやる！ところで、今回ここまで追いつめることができたのもきみのおかげだ　感しゃしている','artmuseumInside','blanc'));
