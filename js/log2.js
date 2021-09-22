@@ -144,7 +144,7 @@ var skip = function () {
     if(count == 87){
         $(".speakerName").css("display","none");
         $(".speakText").css("display","none");
-    }
+    };
 };
 
 for(let count = 0 ;count < 87 ;count++){

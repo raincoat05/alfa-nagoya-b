@@ -35,8 +35,8 @@ data.push(new Sean('主人公','おしいところまでは行ったみたいで
 data.push(new Sean('探偵ブラン','次こそはつかまえてやる！ところで、今回ここまで追いつめることができたのもきみのおかげだ　感しゃしている','artmuseumInside','blanc'));
 data.push(new Sean('主人公','こちらこそです、ブランさん。それではモナ・リザが無事か確認に行きましょう！','artmuseumInside','blanc'));
 data.push(new Sean('探偵ブラン','そうしよう！','artmuseumInside','blanc'));
-data.push(new Sean('null','〜END〜','monalisaUp','null'));
-data.push(new Sean('null','〜END〜','monalisaUp','null'));
+data.push(new Sean(' ','〜END〜','monalisaUp','null'));
+data.push(new Sean(' ','〜END〜','monalisaUp','null'));
 //メールの画像表示、真のエンディング？
 
 var count = 0;

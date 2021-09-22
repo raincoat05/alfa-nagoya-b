@@ -17,6 +17,7 @@ a {
   position: absolute;
   bottom: 90vh;
   left: 20px;
+  display: none;
 }
 
 #titlevisual {
