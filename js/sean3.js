@@ -47,18 +47,19 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background + '.jpg';
     document.getElementById("character1").src='./img/character/'+ data[count].character1+ '.png';
     count++;
-    if(count == 21){
-        window.location.href = "/beta-nagoya-b/ending.html";
-    };
     if(count == 1){
         var media = document.getElementById("audio");
-        media.volume = 0.5
-    }
+        media.volume = 0.5 
+    };
     if(count == 16){
         document.getElementById("audio").src = './audio/tounan.mp3';
         var media = document.getElementById("audio");
         media.volume = 1
-    }
+    };
+    
+    if(count == 21){
+        window.location.href = "/beta-nagoya-b/ending.html";
+    };
 };
 
 $(function(){

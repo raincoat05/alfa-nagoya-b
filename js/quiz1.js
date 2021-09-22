@@ -10,7 +10,7 @@ $(function () {
                 $(".quizText").css("display", "none");
                 $(".quizImg").css("display", "none");
                 $("#answerContainer").css("display", "none");
-                $(".logLink").css("display","none");
+                $(".logLink").css("display", "none");
             } else {
                 $(".notClear").html("不正解");
                 $(".notClearText").html("もう一度");
@@ -18,11 +18,13 @@ $(function () {
                 $(".quizText").css("display", "none");
                 $(".quizImg").css("display", "none");
                 $("#answerContainer").css("display", "none");
-                $(".logLink").css("display","none");
+                $(".logLink").css("display", "none");
             };
         });
     });
 });
-
-var media = document.getElementById("audio");
-media.volume = 1
+window.onload = function () {
+    document.getElementById("audio").src = './audio/quiz.mp3';
+    var media = document.getElementById("audio");
+    media.volume = 1
+}

@@ -34,8 +34,13 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background + '.jpg';
     document.getElementById("character1").src='./img/character/'+ data[count].character1 + '.png';
     count++;
+    if(count == 1){
+        document.getElementById("audio").src = './audio/ending.mp3';
+        var media = document.getElementById("audio");
+        media.volume = 0.5
+    }
     if(count == 14){
-        window.location.href = "/beta-nagoya-b/trueEnding.html";
+        
     };
 };
 

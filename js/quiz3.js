@@ -25,6 +25,8 @@ $(function () {
         });
     });
 });
-
-var media = document.getElementById("audio");
-media.volume = 1
+window.onload = function () {
+    document.getElementById("audio").src = './audio/quiz.mp3';
+    var media = document.getElementById("audio");
+    media.volume = 1
+}

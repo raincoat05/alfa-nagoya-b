@@ -30,6 +30,10 @@ var skip = function(){
     document.getElementById("background").src='./img/background/'+ data[count].background + '.jpg';
     document.getElementById("character1").src='./img/character/'+ data[count].character1 + '.png';
     count++;
+    if(count == 1){
+        var media = document.getElementById("audio");
+        media.volume = 0.12
+    }
     if(count == 11){
         window.location.href = "/beta-nagoya-b/quiz2.html";
     };
