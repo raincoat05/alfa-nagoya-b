@@ -35,7 +35,7 @@ data.push(new Sean('探偵ブラン','ところで、今回ここまで追いつ
 data.push(new Sean('主人公','こちらこそです、ブランさん。','artmuseumInside','blanc'));
 data.push(new Sean('探偵ブラン','それではモナ・リザが無事か確認に行こう！','artmuseumInside','blanc'));
 data.push(new Sean('主人公','はい！','artmuseumInside','blanc'));
-data.push(new Sean(' ','〜END〜','monalisaUp',' '));
+data.push(new Sean(' ','〜END〜','monalisaUp','null'));
 data.push(new Sean('事件解決後',' ','monalisa','null'));
 data.push(new Sean('主人公','ところでブランさん、入れかわっていた時を思い返すと、Noirとやけに顔にてませんか......？','monalisa','blanc'));
 data.push(new Sean('探偵ブラン','ああそれは、ふたごなんだよ','monalisa','blanc'));
