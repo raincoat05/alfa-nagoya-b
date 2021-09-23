@@ -178,7 +178,9 @@ var skip = function () {
         media.volume = 1
     };
     if (count == 48) {
-        $(".skipButton").css("display", "none");
+        setTimeout(() => {
+            $(".skipButton").css("display", "none");
+        }, 501);
     } else {
         $(".skipButton").css("display", "block");
     };
