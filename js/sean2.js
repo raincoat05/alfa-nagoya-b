@@ -196,6 +196,10 @@ $(function () {
 $(function () {
     $(".skipButton").click(function () {
         $(skip);
+        $(".skipButton").css("display", "none");
+        setTimeout(() => {
+            $(".skipButton").css("display", "block");
+        }, 500);
     });
 });
 
