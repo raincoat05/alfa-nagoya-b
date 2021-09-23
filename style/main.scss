@@ -27,16 +27,17 @@ a {
 iframe {
     width: 100vw;
     height: 100vh;
+    display: none;
 }
 #startGame {
     margin-top: 20vh;
     margin-bottom: 20vh;
     height: 40vh;
     width: 100vw;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    display: none;
     #startGameLink {
         font-size: 80px;
     }
@@ -45,6 +46,7 @@ iframe {
     bottom: 0;
     height: 20vh;
     text-align: center;
+    display: none;
     p{
         padding-top: 9vh;
     }
