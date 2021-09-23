@@ -232,6 +232,7 @@ iframe {
 
 #quizContainer .notClearHint {
   display: none;
+  font-size: 36px;
 }
 
 #quizContainer .nextBtn {
