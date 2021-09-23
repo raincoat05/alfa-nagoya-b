@@ -2,8 +2,8 @@ $(function(){
     $("#titlevisual").click(function(){
         $("#titlevisual").css("display","none");
         $("#opening").show();
+        $("#startGame").css("display","flex");
         setTimeout(() => {
-            $("#startGame").css("display","flex");
             $("#footer").show();
         }, 90000);
     });
