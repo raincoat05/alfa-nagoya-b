@@ -8,24 +8,24 @@ class Sean {
 };
 
 var data = [];
-//*********************************************
+//**
 //謎1正解後
-//*********************************************
-data.push(new Sean('受信音', '〜♪', 'bookshelf', 'null'));
-data.push(new Sean('探偵ブラン', 'おめでとう！！きみが最初の正かい者だ', 'bookshelf', 'blanc'));
-data.push(new Sean('探偵ブラン', 'ぜひともわたしの助手になってくれ！', 'bookshelf', 'blanc'));
-data.push(new Sean('主人公', 'もちろんです！', 'bookshelf', 'blanc'));
-data.push(new Sean('探偵ブラン', 'ありがとう！早速だが説明させてもらおう', 'bookshelf', 'blanc'));
-data.push(new Sean('探偵ブラン', 'まず、きみにはこの予告状をみてもらいたい', 'bookshelf', 'blanc'));
-data.push(new Sean('探偵ブラン', 'まず、きみにはこの予告状をみてもらいたい', 'preview', 'blanc'));
-data.push(new Sean('探偵ブラン', '見ての通りこの予告状は暗号になっている', 'bookshelf', 'blanc'));
-data.push(new Sean('探偵ブラン', 'この内ようがわからないとわたしたちは怪盗のはん行を止めることができない', 'bookshelf', 'blanc'));
-data.push(new Sean('探偵ブラン', 'そこで、試験を見事とっぱしたきみに、ぜひこれをといてもらいたい', 'bookshelf', 'blanc'));
-data.push(new Sean('主人公', 'わかりました！がんばります！', 'bookshelf', 'blanc'));
-data.push(new Sean('主人公', 'わかりました！がんばります！', 'bookshelf', 'blanc'));
-//*********************************************
+//**
+data.push(new Sean('受信音','〜♪','bookshelf','null'));
+data.push(new Sean('探偵ブラン','おめでとう！！きみが最初の正かい者だ','bookshelf','blanc'));
+data.push(new Sean('探偵ブラン','ぜひともわたしの助手になってくれ！','bookshelf','blanc'));
+data.push(new Sean('主人公','もちろんです！','bookshelf','blanc'));
+data.push(new Sean('探偵ブラン','ありがとう！早速だが説明させてもらおう','bookshelf','blanc'));
+data.push(new Sean('探偵ブラン','まず、きみにはこの予告状をみてもらいたい','bookshelf','blanc'));
+data.push(new Sean('探偵ブラン','まず、きみにはこの予告状をみてもらいたい','preview','blanc'));
+data.push(new Sean('探偵ブラン','見ての通りこの予告状は暗号になっている','bookshelf','blanc'));
+data.push(new Sean('探偵ブラン','この内ようがわからないとわたしたちは怪盗のはん行を止めることができない','bookshelf','blanc'));
+data.push(new Sean('探偵ブラン','そこで、試験を見事とっぱしたきみに、ぜひこれをといてもらいたい','bookshelf','blanc'));
+data.push(new Sean('主人公','わかりました！がんばります！','bookshelf','blanc'));
+data.push(new Sean('主人公','わかりました！がんばります！','bookshelf','blanc'));
+//**
 //謎2
-//*********************************************
+//**
 
 var count = 0;
 

@@ -17,6 +17,7 @@ $(function () {
             } else {
                 $(".notClear").html("不正解");
                 $(".notClearText").html("もう一度");
+                $(".notClearHint").html("50音表に当てはめてみると...");
                 $(".notClear").css("display", "inline");
                 $(".quizText").css("display", "none");
                 $(".quizImg").css("display", "none");
