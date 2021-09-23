@@ -8,7 +8,6 @@ class Sean {
 };
 
 var data = [];
-
 data.push(new Sean('探偵ブラン', 'ふむふむ......なるほど！きみのおかげで怪盗Noir(ノアール)の目的は、ルーブル美じゅつ館の絵画、「モナ・リザ」だと分かった！', 'bookshelf', 'blanc'));
 data.push(new Sean('探偵ブラン', 'それでは早速現地に向かう', 'bookshelf', 'blanc'));
 data.push(new Sean('探偵ブラン', 'きみはリモートワークでそこからわたしをサポートしてくれ！', 'bookshelf', 'blanc'));
@@ -108,7 +107,7 @@ var skip = function () {
     document.getElementById("character1").src = './img/character/' + data[count].character1 + '.png';
     count++;
 
-    if (count == 4 || count == 5 || count == 6 ||count == 13 ||count == 14 ||count == 15 ||count == 16 ||count == 17) {
+    if (count == 5 || count == 6 ||count == 7 ||count == 14 ||count == 15 ||count == 16 ||count == 17 ||count == 18) {
         $("#background").css("filter", "none");
     } else {
         $("#background").css("filter", "blur(2px) grayscale(90%)");
@@ -118,30 +117,30 @@ var skip = function () {
         var media = document.getElementById("audio");
         media.volume = 0.12
     }
-    if (count == 4) {
+    if (count == 5) {
         document.getElementById("audio").src = './audio/museum.mp3';
         var media = document.getElementById("audio");
         media.volume = 1
     }
-    if(count == 22){
+    if(count == 23){
         var media = document.getElementById("audio");
         media.volume = 0
     };
-    if(count == 29){
+    if(count == 30){
         document.getElementById("audio").src = './audio/tounan.mp3';
         var media = document.getElementById("audio");
         media.volume = 1
     };
-    if(count == 40){
+    if(count == 41){
         var media = document.getElementById("audio");
         media.volume = 0
     };
-    if(count == 51){
+    if(count == 52){
         document.getElementById("audio").src = './audio/opening.mp3';
         var media = document.getElementById("audio");
         media.volume = 1
     };
-    if (count == 48) {
+    if (count == 49) {
         setTimeout(() => {
             $(".skipButton").css("display", "none");
         }, 501);
@@ -150,7 +149,7 @@ var skip = function () {
             $(".skipButton").css("display", "block");
         }, 501);
     };
-    if (count == 88) {
+    if (count == 89) {
         window.location.href = "/beta-nagoya-b/quiz3.html";
     };
 };
@@ -171,7 +170,7 @@ $(function () {
 
 $(function () {
     $(".exskip").click(function () {
-        if (count == 48) {
+        if (count == 49) {
             $(skip);
         }
     });
