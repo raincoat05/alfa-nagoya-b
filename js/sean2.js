@@ -68,8 +68,8 @@ data.push(new Sean('探偵ブラン','おい！モナ・リザを返せ！','noM
 data.push(new Sean('怪盗Noir','それはいただいていくよ。せいぜい私に助手までとられないように気をつけているんだね。','noMonalisa','noir,blanc'));
 data.push(new Sean('探偵ブラン','よけいなお世話だ！','noMonalisa','blanc'));
 data.push(new Sean('怪盗Noir','それでは、Adieu！(さようなら！)','noMonalisa','noir,blanc'));
-data.push(new Sean('探偵ブラン','うっ、まぶしいっ','noMonalisa','blanc'));
-data.push(new Sean('主人公','うわあああ！目が！目が！','noMonalisa','null'));
+data.push(new Sean('探偵ブラン','うっ、まぶしいっ','flash','blanc'));
+data.push(new Sean('主人公','うわあああ！目が！目が！','flash','null'));
 data.push(new Sean('探偵ブラン', 'くっ、にげられてしまったか......', 'noMonalisa', 'blanc'));
 data.push(new Sean('主人公', 'ブランさん！なんとかつかまえる方法はないんですか！？', 'noMonalisa', 'blanc'));
 data.push(new Sean('探偵ブラン', 'うーむ、直接つかまえるとなると今Noirがどこにいるのかが分からないときびしい。この美じゅつ館内にいるとは思うのだが......', 'noMonalisa', 'blanc'));
