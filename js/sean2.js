@@ -76,7 +76,7 @@ data.push(new Sean('探偵ブラン', 'うーむ、直接つかまえるとな�
 data.push(new Sean('主人公', 'そんな......', 'noMonalisa', 'blanc'));
 data.push(new Sean('主人公', '(まてよ......？)', 'noMonalisa', 'blanc'));
 data.push(new Sean('主人公', '！！！', 'noMonalisa', 'blanc'));
-data.push(new Sean('主人公', 'そうだ！副館長さん、この美術館の出入り口は1つだけですよね？', 'noMonalisa', 'blanc'));
+data.push(new Sean('主人公', 'そうだ！副館長さん、この美じゅつ館の出入り口は1つだけですよね？', 'noMonalisa', 'blanc'));
 data.push(new Sean('副館長', 'そのはずですが。', 'noMonalisa', 'blanc,fukukan'));
 data.push(new Sean('探偵ブラン', '何か思いついたのか？きみの考えを聞かせてくれ！', 'noMonalisa', 'blanc,fukukan'));
 data.push(new Sean('主人公', 'その出入り口をふさげば、Noirのとうぼうをそ止できると思います！うまくいけばNoirをつかまえられる！', 'noMonalisa', 'blanc,fukukan'));

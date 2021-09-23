@@ -19,7 +19,7 @@ data.push(new Sean('副館長','それでは、ぼうはんシステムを起動
 data.push(new Sean('副館長','......よし！出入り口のふうさに成功しました。','securityRoom','fukukan'));
 data.push(new Sean('探偵ブラン','副館長、ありがとうございます。君もありがとう、たよりになるな。','securityRoom','blanc'));
 data.push(new Sean('主人公','光栄です。','securityRoom','blanc,fukukan'));
-data.push(new Sean('探偵ブラン','よし、ついにNoirをつかまえるときがきた　Noirは美術館の中に必ずいるはずだ　みんな、いそごう','securityRoom','blanc'));
+data.push(new Sean('探偵ブラン','よし、ついにNoirをつかまえるときがきた　Noirは美じゅつ館の中に必ずいるはずだ　みんな、いそごう','securityRoom','blanc'));
 data.push(new Sean('主人公','さがしましょう！','securityRoom','blanc,fukukan'));
 data.push(new Sean(' ', '〜移動中〜', 'black', 'null'));
 data.push(new Sean('探偵ブラン','この付近にNoirはいるはずだが......','artmuseumInside','blanc,fukukan'));
