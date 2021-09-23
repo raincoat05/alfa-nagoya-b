@@ -9,6 +9,7 @@ $(function () {
             if (answer == 'モナリザ' || answer == 'もなりざ') {
                 $(".clear").html("正解!!")
                 $(".clearText").html("次のストーリーに進む");
+                $(".notClearHint").css("display", "none");
                 $(".clear").css("display", "inline");
                 $(".quizText").css("display", "none");
                 $(".quizImg").css("display", "none");
@@ -18,6 +19,7 @@ $(function () {
                 $(".notClear").html("不正解");
                 $(".notClearText").html("もう一度");
                 $(".notClearHint").html("50音表に当てはめてみると...");
+                $(".notClearHint").css("display", "inline");
                 $(".notClear").css("display", "inline");
                 $(".quizText").css("display", "none");
                 $(".quizImg").css("display", "none");

@@ -13,7 +13,8 @@ $(function () {
                 $(".logLink").css("display", "none");
             } else {
                 $(".notClear").html("不正解");
-                $(".notClearHint").html("50音表に当てはめてみると...");
+                $(".notClearHint").html("色が関係してるみたい...");
+                $(".notClearHint").css("display", "inline");
                 $(".notClearText").html("もう一度");
                 $(".notClear").css("display", "inline");
                 $(".quizText").css("display", "none");
