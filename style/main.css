@@ -1,6 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 body {
@@ -32,14 +36,20 @@ iframe {
 }
 
 #startGame {
-  height: 100vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  height: 40vh;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -47,6 +57,16 @@ iframe {
 
 #startGame #startGameLink {
   font-size: 80px;
+}
+
+#footer {
+  bottom: 0;
+  height: 20vh;
+  text-align: center;
+}
+
+#footer p {
+  padding-top: 9vh;
 }
 
 #background {
@@ -58,7 +78,9 @@ iframe {
 }
 
 #characterBox {
-  width: 80vw;
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
   bottom: 0;
   left: 0;
   right: 0;
@@ -66,8 +88,7 @@ iframe {
 }
 
 #characterBox img {
-  position: absolute;
-  height: 90vh;
+  width: 100vw;
   bottom: 0;
   left: 0;
   right: 0;
@@ -239,12 +260,12 @@ iframe {
   padding: 3rem;
   cursor: pointer;
   background: white;
-  color: #6593f7;
+  color: #945959;
 }
 
 .btn:hover {
   background: white;
-  color: #f76565;
+  color: #3d1212;
 }
 
 table,

@@ -177,13 +177,11 @@ var skip = function () {
         var media = document.getElementById("audio");
         media.volume = 1
     };
-
     if (count == 48) {
         $(".skipButton").css("display", "none");
     } else {
         $(".skipButton").css("display", "block");
     };
-
     if (count == 88) {
         window.location.href = "/beta-nagoya-b/quiz3.html";
     };
